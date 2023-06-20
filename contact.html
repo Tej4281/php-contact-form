@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+
+
+
+            <h2 class="text-center pb-5">Contact Form</h2>
+
+
+            <form method="post" action="submit.php">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    <input type="text" class="form-control" name="name" id="name" style="border: 1px solid black;"/>
+                    <label class="form-label" >Name</label>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" class="form-control" name="email" id="email" style="border: 1px solid black;"/>
+                    <label class="form-label"  >Email address</label>
+                </div>
+
+
+
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" name="message" id="message"  rows="2"  style="border: 1px solid black;"></textarea>
+                    <label class="form-label">Message</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block" value="Submit">Sumit</button>
+
+
+            </form>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+</body>
+
+</html>
